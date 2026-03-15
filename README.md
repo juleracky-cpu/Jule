@@ -24,8 +24,7 @@ The objective of this project is to:
 
 ## Dataset
 
-The dataset used in this project is *Total.csv**, which contains employee salary information including:
-
+The dataset used in this project is **Total.csv**, which contains employee salary information including:
 * Employee Name
 * Job Title
 * Base Pay
