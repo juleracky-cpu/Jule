@@ -1,0 +1,53 @@
+# Milestone 1 – Insurance Policy Management System
+
+## Description
+This is a simple console-based policy management system built using Python OOP concepts (classes, methods, encapsulation).
+
+It includes three main classes and the demonstration:
+1. Policyholder
+- Register policyholders for products
+- Suspend and reactivate policyholders
+- Display policyholder details
+2. Product
+- Create, update, and suspend products
+- Track product availability
+3. Payment
+- Process payments for registered policies
+- Send payment reminders
+- Apply penalties to overdue payments
+
+Demonstration (Main)
+- Two policyholders registered with products
+- Payments processed and verified
+- Suspension and reactivation of policyholders
+
+## Files
+- "policyholder.py"     → Policyholder class and methods
+- "product.py"          → Insurance product class
+- "payment.py"          → Payment handling, reminders, penalties
+- "main.py"             → Demonstration script (creates 2 policyholders + payments)
+
+## How to run
+1. Make sure you have Python 3.8+ installed
+2. Put all files in the same folder
+3. Open terminal/command prompt in that folder
+4. Run:
+
+python main.py
+## Features implemented
+- Create policyholders
+- Register / suspend / reactivate policyholders
+- Create and update insurance products
+- Suspend / reactivate products
+- Process payments
+- Check overdue status & apply penalties
+- Display policyholder details
+
+## Notes
+- All classes are in separate files as required
+- Code uses clear variable names, comments, and docstrings
+- Demonstration creates two policyholders who have "paid" for a product
+
+Submitted by: Jule  Ahebwa
+Course: Module 3 Assignment 
+Date: 19th March 2026
