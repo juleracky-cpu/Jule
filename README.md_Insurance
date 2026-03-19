@@ -26,6 +26,7 @@ Demonstration (Main)
 - "product.py"          → Insurance product class
 - "payment.py"          → Payment handling, reminders, penalties
 - "main.py"             → Demonstration script (creates 2 policyholders + payments)
+- "README.md"           → This file
 
 ## How to run
 1. Make sure you have Python 3.8+ installed
