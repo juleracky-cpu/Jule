@@ -1,0 +1,93 @@
+# Module 4 Assignment: Netflix Data Visualization
+
+## Overview
+This project analyzes a Netflix dataset to generate insights into content distribution, specifically focusing on genres and ratings. The analysis is conducted using both Python and R to demonstrate data cleaning, exploration, and visualization techniques.
+
+The project fulfills all assignment requirements, including data cleaning, statistical exploration, and creation of visualizations.
+
+## Dataset
+- File: `Netflix_shows_movies.csv`
+- Description: The dataset contains information about Netflix shows and movies, including:
+  - Title
+  - Type (Movie/TV Show)
+  - Director
+  - Cast
+  - Country
+  - Date Added
+  - Release Year
+  - Rating
+  - Duration
+  - Genre (`listed_in`)
+  - Description
+
+## Objectives
+- Clean and preprocess the dataset
+- Perform exploratory data analysis
+- Visualize:
+  - Most watched genres
+  - Ratings distribution
+- Integrate R visualization
+
+## Tools & Technologies
+- Python (Pandas, Matplotlib, Seaborn)
+- R (tidyverse, ggplot2)
+
+## Folder Structure
+Module 4 Assignment_Netflix Data Visualization_Jule
+├── Netflix_shows_movies.csv
+├── Netflix_Analysis.py
+├── outputs/
+│ ├── ratings_distribution.png
+│ └── most_watched_genres.png
+│ └── top_12_genres_r_plot.png
+├── Netflix_Analysis.R
+└── README.md
+
+## How to Run
+
+This project includes both Python and R scripts.
+
+- Run the Python script to perform data cleaning and visualization.
+- Run the R script to generate additional visualizations.
+- All outputs will be saved in the `outputs/` folder.
+
+## Instructions to Run
+
+### Python
+
+1. Ensure Python 3.x is installed.
+2. Install required libraries:
+   pip install pandas matplotlib seaborn
+3. Place the dataset in the `Module 4 Assignment_Netflix Data Visualization_Jule/" folder.
+4. Run:
+   python Netflix_Analysis.py
+5. Output charts will be saved in the `outputs/` folder.
+
+
+### R
+
+1. Open `Netflix_Analysis.R` in RStudio.
+2. Set the working directory to the project folder.
+3. Ensure the dataset(`Netflix_shows_movies.csv`) is available in the correct location (`Module 4 Assignment_Netflix Data Visualization_Jule/` folder).
+4. Install required packages (if needed):
+   install.packages("ggplot2")
+5. Run the script from top to bottom.
+6. Output charts will be saved in the `outputs/` folder.
+
+
+## Outputs
+- Most Watched Genres chart
+- Ratings distribution chart
+ - Top 12 genres (`genre_plot_R.png`) chart
+
+## Key Insights
+- Certain genres dominate Netflix content (e.g., Drama, Comedy)
+- Ratings distribution shows concentration around TV-MA and TV-14
+
+## Notes
+- Missing values handled using imputation and removal
+- Dataset renamed to "Netflix_shows_movies.csv" as required
+
+Submitted by: Jule  Ahebwa
+Course: Module 4 Assignment 
+Date: 24th March 2026
