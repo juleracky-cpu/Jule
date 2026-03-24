@@ -33,14 +33,14 @@ The project fulfills all assignment requirements, including data cleaning, stati
 - R (tidyverse, ggplot2)
 
 ## Folder Structure
-Module 4 Assignment_Netflix Data Visualization_Jule
+Module_4_Assignment/
 ├── Netflix_shows_movies.csv
 ├── Netflix_Analysis.py
+├── Netflix_Analysis.R
 ├── outputs/
 │ ├── ratings_distribution.png
-│ └── most_watched_genres.png
+│ ├── most_watched_genres.png
 │ └── top_12_genres_r_plot.png
-├── Netflix_Analysis.R
 └── README.md
 
 ## How to Run
@@ -58,7 +58,7 @@ This project includes both Python and R scripts.
 1. Ensure Python 3.x is installed.
 2. Install required libraries:
    pip install pandas matplotlib seaborn
-3. Place the dataset in the `Module 4 Assignment_Netflix Data Visualization_Jule/" folder.
+3. Place the dataset in the project folder.
 4. Run:
    python Netflix_Analysis.py
 5. Output charts will be saved in the `outputs/` folder.
@@ -76,9 +76,9 @@ This project includes both Python and R scripts.
 
 
 ## Outputs
-- Most Watched Genres chart
-- Ratings distribution chart
- - Top 12 genres (`genre_plot_R.png`) chart
+- Most Watched Genres chart (`most_watched_genres.png`)
+- Ratings Distribution chart (`ratings_distribution.png`)
+- Top 12 Genres (R visualization) (`top_12_genres_r_plot.png`)
 
 ## Key Insights
 - Certain genres dominate Netflix content (e.g., Drama, Comedy)
@@ -88,6 +88,12 @@ This project includes both Python and R scripts.
 - Missing values handled using imputation and removal
 - Dataset renamed to "Netflix_shows_movies.csv" as required
 
-Submitted by: Jule  Ahebwa
-Course: Module 4 Assignment 
-Date: 24th March 2026
+## AI Disclosure
+
+- Tools Used: ChatGPT, Google Search  
+- Purpose: Assisted with code development, debugging, and improving visualization structure.  
+- All outputs were reviewed, tested, and validated before submission.
+
+**Submitted by:** Jule Ahebwa  
+**Course:** Module 4 Assignment: Netflix Data Visualization  
+**Date:** 24 March 2026
